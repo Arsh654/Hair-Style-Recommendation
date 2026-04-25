@@ -20,7 +20,7 @@ Spring Boot app for AI-powered face-shape, hairstyle, and skin analysis from a s
   - severity score and label
   - severity color coding
   - remediation steps
-  - curated product suggestions
+  - India-first curated product suggestions
 - Shows separate `Hair` and `Skin` tabs in the UI
 - Supports re-uploading a new image directly from the page
 
@@ -68,3 +68,4 @@ Run the full test suite:
 - Skin analysis is Groq-only. OpenAI integration has been removed.
 - If `GROQ_SKIN_MODEL` is set to a non-vision Groq model, the app falls back to a vision-capable model automatically.
 - If Groq is unavailable, hairstyle analysis still works and the UI shows the skin-analysis failure state separately.
+- Product recommendations are curated for the Indian market first rather than using a global catalog.
