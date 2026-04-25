@@ -46,40 +46,40 @@ public class SkinAnalysisService {
             "Hydration"
     );
     private static final ProductSuggestion SUNSCREEN = new ProductSuggestion(
-            "La Roche-Posay Anthelios UV Clear SPF 50",
+            "Minimalist SPF 50 Sunscreen",
             "Sunscreen",
             "Broad-spectrum daily UV protection supports tone, pigmentation control, and post-acne mark prevention.",
-            "https://www.laroche-posay.us/our-products/sun/face-sunscreen/anthelios-uv-clear-face-sunscreen-spf-50-3606000403703.html"
+            "https://beminimalist.co/products/multi-vitamin-spf-50"
     );
     private static final ProductSuggestion CLEANSER = new ProductSuggestion(
-            "CeraVe Foaming Facial Cleanser",
+            "Cetaphil Oily Skin Cleanser",
             "Cleanser",
             "A gentle foaming cleanser helps reduce surface oil and buildup without stripping the barrier.",
-            "https://www.cerave.com/skincare/cleansers/foaming-facial-cleanser"
+            "https://www.cetaphil.in/products/cleansers/oily-skin-cleanser/8906005274090.html/"
     );
     private static final ProductSuggestion NIACINAMIDE = new ProductSuggestion(
-            "The Ordinary Niacinamide 10% + Zinc 1%",
+            "Minimalist Niacinamide 10% Face Serum",
             "Serum",
             "Niacinamide is commonly used for visible oil control, pores, and post-blemish uneven tone.",
-            "https://theordinary.com/en-us/niacinamide-10-zinc-1-serum-100436.html"
+            "https://beminimalist.co/collections/treatments/products/niacinamide-10-with-matmarine"
     );
     private static final ProductSuggestion EYE_SERUM = new ProductSuggestion(
-            "The Ordinary Caffeine Solution 5% + EGCG",
+            "Minimalist Vitamin K + Retinal 1% Eye Cream",
             "Eye Serum",
             "A caffeine-based eye serum is a practical option when under-eye puffiness or darkness is visible.",
-            "https://theordinary.com/en-us/caffeine-solution-5-egcg-eye-serum-100412.html"
+            "https://beminimalist.co/products/vitamin-k-retinal-01-eye-cream"
     );
     private static final ProductSuggestion MOISTURIZER = new ProductSuggestion(
-            "The Ordinary Natural Moisturizing Factors + HA",
+            "Minimalist Vitamin B5 10% Moisturizer",
             "Moisturizer",
             "Barrier-supportive moisturizers help with dehydration, surface roughness, and irritation-prone skin.",
-            "https://theordinary.com/en-us/natural-moisturizing-factors-ha-moisturizer-100435.html"
+            "https://beminimalist.co/products/vitamin-b5-10-moisturizer"
     );
     private static final ProductSuggestion BHA = new ProductSuggestion(
-            "Paula's Choice Skin Perfecting 2% BHA Liquid Exfoliant",
+            "Minimalist Salicylic Acid 2% Face Serum",
             "Exfoliant",
             "A salicylic-acid exfoliant is commonly used for clogged pores, uneven texture, and blemish-prone areas.",
-            "https://www.paulaschoice.com/skin-perfecting-2pct-bha-liquid-exfoliant/201.html"
+            "https://beminimalist.co/products/salicylic-acid-2"
     );
 
     private final RestOperations restOperations;

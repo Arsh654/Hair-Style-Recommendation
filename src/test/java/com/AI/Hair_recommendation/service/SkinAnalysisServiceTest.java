@@ -85,6 +85,10 @@ class SkinAnalysisServiceTest {
                         .orElseThrow()
         );
         assertThat(pigmentationConcern.toString()).contains("sunscreen");
+        assertThat(pigmentationConcern.toString()).contains("Minimalist");
+
+        JsonNode acneConcernProducts = acneConcern.path("productSuggestions");
+        assertThat(acneConcernProducts.toString()).contains("Cetaphil");
     }
 
     @Test
